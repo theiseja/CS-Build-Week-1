@@ -28,6 +28,6 @@ As of 11/20/19 this should work with Python 3.6.8.  We will be using this versio
 10. Enter the shell with `pipenv shell` and try `python manage.py showmigrations`.
     1. If this errors because Django is not found, install it: `pipenv install django`
     2. If this errors because "SECRET_KEY", "DEBUG", or other values are not found, set up a .env as described in the docs
-    3. If you see a list of unapplied migrations, you should be ready to apply the migrations and get started
-        1. If you try to run the server and get additional errors, make sure that you don't have unmade migrations:
+    3. If you see a list of unapplied migratio, mns, you should be ready to apply the migrations and get started
+        1. If you try to run the server and get additional errorsake sure that you don't have unmade migrations:
             1. `python manage.py makemigrations` then `python manage.py migrate`
