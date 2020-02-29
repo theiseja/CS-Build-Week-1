@@ -59,6 +59,7 @@ You will also need to implement a GET `rooms` API endpoint for clients to fetch 
 
 #### 4. STRETCH: Implement server push alerts and chat using the Pusher websocket library
 
+
 More on Pusher below.
 
 ### Client
